@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,6 @@
 		65995E9320C0583E005CF7ED /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65995E9120C0583E005CF7ED /* AlamofireImage.framework */; };
 		65995E9820C059C0005CF7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65995E9420C059C0005CF7ED /* AppDelegate.swift */; };
 		65995E9A20C059C0005CF7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65995E9620C059C0005CF7ED /* Assets.xcassets */; };
-		65995E9B20C059C0005CF7ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65995E9720C059C0005CF7ED /* Info.plist */; };
 		65995E9E20C059D1005CF7ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65995E9C20C059D1005CF7ED /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -260,13 +259,16 @@
 				TargetAttributes = {
 					65995E2220C051DF005CF7ED = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 					};
 					65995E3620C051E0005CF7ED = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 65995E2220C051DF005CF7ED;
 					};
 					65995E7020C0555A005CF7ED = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -295,7 +297,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65995E9B20C059C0005CF7ED /* Info.plist in Resources */,
 				65995E9E20C059D1005CF7ED /* LaunchScreen.storyboard in Resources */,
 				65995E9A20C059C0005CF7ED /* Assets.xcassets in Resources */,
 				65995E2C20C051DF005CF7ED /* Main.storyboard in Resources */,
@@ -524,7 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tbzn.PlaygroundSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -542,7 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tbzn.PlaygroundSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -561,7 +562,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tbzn.PlaygroundSetupTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaygroundSetup.app/PlaygroundSetup";
 			};
@@ -581,7 +582,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tbzn.PlaygroundSetupTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaygroundSetup.app/PlaygroundSetup";
 			};
@@ -612,7 +613,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tbzn.PlaygroundSetupFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -644,7 +645,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tbzn.PlaygroundSetupFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
